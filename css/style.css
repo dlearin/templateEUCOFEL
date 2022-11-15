@@ -136,7 +136,7 @@ font-size: 1.5rem;
 	display: flex;
 }
 
-img {
+div.hero-nav > img {
 	width: 80px;
 }
 
@@ -150,7 +150,7 @@ ul li {
     padding-top: 80px;
     justify-content: space-between;
     margin-right: 350px;
-margin-left: 350px;
+    margin-left: 350px;
 }
 
 .sl-starter > h2 {
@@ -163,6 +163,15 @@ margin-left: 350px;
 
 .sl-starter > div {
     width: 220px;
+}
 
+.sl-container1 > img,
+.sl-container2 > img,
+.sl-container3 > img,
+.sl-container4 > img
+{
+
+width: 36px;
+padding-bottom: 20px;
 
 }
