@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
 
-*{
-	margin: 0;
+* {
+    margin: 0;
     padding: 0;
 }
 
@@ -13,15 +13,15 @@ body {
     font-family: 'Open Sans';
 }
 
-.hero::before{
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
+.hero::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
-    background: linear-gradient(90deg, rgba(235,235,237,0.7) 9%, rgba(235,235,237,0.7) 9%, rgba(235,235,237,0.7) 9%), url(../img/eucofel_wallpaper.jpg);
-	background-repeat: no-repeat;
+    background: linear-gradient(90deg, rgba(235, 235, 237, 0.7) 9%, rgba(235, 235, 237, 0.7) 9%, rgba(235, 235, 237, 0.7) 9%), url(../img/eucofel_wallpaper.jpg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
     /*filter: brightness(60%);*/
@@ -53,10 +53,10 @@ button {
     padding: 10px;
 }
 
-.hero-content > h2 {
-	line-height: 1.2;
-	margin: 0 0 10px 0;
-	color: #485664;
+.hero-content>h2 {
+    line-height: 1.2;
+    margin: 0 0 10px 0;
+    color: #485664;
     font-size: 3rem;
 
 }
@@ -67,11 +67,11 @@ button {
     font : normal 600 72px/1 'Open Sans', sans-serif;
 }*/
 
-.hero-content > p {
+.hero-content>p {
 
-color: #485664;
-font-weight: 300;
-font-size: 1.5rem;
+    color: #485664;
+    font-weight: 300;
+    font-size: 1.5rem;
 }
 
 .hero-title {
@@ -79,6 +79,7 @@ font-size: 1.5rem;
     font-weight: 600;
     margin-bottom: 0;
 }
+
 .hero-subtitle {
     font-size: 3rem;
     font-weight: 200;
@@ -94,23 +95,26 @@ font-size: 1.5rem;
     height: 100%;
     justify-content: center;
     align-items: center;
-	/*display: flex;*/
-	--bs-gutter-x: 1.5rem;
- 
+    /*display: flex;*/
+    --bs-gutter-x: 1.5rem;
+
 
 }
 
 .hero-button {
-    background-color: #418209;;
+    background-color: #418209;
+    ;
     color: white;
-    border: 1px solid   #418209;;
+    border: 1px solid #418209;
+    ;
     margin-top: 50px;
     padding: 0.9375rem 1.875rem;
     font-size: 1.125rem;
     font-weight: 200;
     cursor: pointer;
-    
+
 }
+
 .hero-button:hover {
     background-color: #cb376a;
     border: 1px solid #db7598;
@@ -118,30 +122,30 @@ font-size: 1.5rem;
 
 .hero-nav {
 
-	display: flex; 
-	justify-content: space-between;
-	position: relative;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
     color: white;
     text-align: center;
-	font-family: var(--font-secondary);
+    font-family: var(--font-secondary);
     padding: 15px;
 
 }
 
-.hero-content{
-	position: relative;
+.hero-content {
+    position: relative;
     height: 100vh;
     justify-content: center;
     align-items: center;
-	display: flex;
+    display: flex;
 }
 
-div.hero-nav > img {
-	width: 80px;
+div.hero-nav>img {
+    width: 80px;
 }
 
 ul li {
-	list-style: none;
+    list-style: none;
     display: inline;
 }
 
@@ -153,25 +157,32 @@ ul li {
     margin-left: 350px;
 }
 
-.sl-starter > h2 {
+.sl-starter>h2 {
     font-size: 12px;
 }
 
-.sl-starter > p{
+.sl-starter>p {
     font-size: 10px;
 }
 
-.sl-starter > div {
+.sl-starter>div {
     width: 220px;
 }
 
-.sl-container1 > img,
-.sl-container2 > img,
-.sl-container3 > img,
-.sl-container4 > img
-{
+.sl-container1>img,
+.sl-container2>img,
+.sl-container3>img,
+.sl-container4>img {
 
-width: 36px;
-padding-bottom: 20px;
+    width: 36px;
+    padding-bottom: 20px;
 
+}
+
+.aboutUs {
+    display: flex;
+    padding-top: 80px;
+    justify-content: space-between;
+    margin-right: 350px;
+    margin-left: 350px;
 }
