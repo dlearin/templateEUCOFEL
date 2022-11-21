@@ -1,9 +1,15 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:600,300);
 
+
+/**general distribution**/
+
 * {
     margin: 0;
     padding: 0;
 }
+
+
+/**general distribution of body**/
 
 
 body {
@@ -12,6 +18,9 @@ body {
     box-sizing: border-box;
     font-family: 'Open Sans';
 }
+
+/**wallpaper**/
+
 
 .hero::before {
     content: "";
@@ -27,16 +36,25 @@ body {
     /*filter: brightness(60%);*/
 }
 
+/**options of section **/
+
 
 section {
     margin-top: 0;
 }
 
+/**options of the main title box**/
+
+
 .hero-content {
     display: flex;
+    position: relative;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-}
 
+}
 
 /*.hero-content {
 	position: relative; 
@@ -48,10 +66,16 @@ section {
 	
 } */
 
+/**options of the button**/
+
+
 button {
 
     padding: 10px;
 }
+
+/**options of the main sub title**/
+
 
 .hero-content>h2 {
     line-height: 1.2;
@@ -67,6 +91,9 @@ button {
     font : normal 600 72px/1 'Open Sans', sans-serif;
 }*/
 
+/**options of the main sub sub title**/
+
+
 .hero-content>p {
 
     color: #485664;
@@ -74,11 +101,17 @@ button {
     font-size: 1.5rem;
 }
 
+/**options of the main title**/
+
+
 .hero-title {
     font-size: 3rem;
     font-weight: 600;
     margin-bottom: 0;
 }
+
+/**options of the main sub title**/
+
 
 .hero-subtitle {
     font-size: 3rem;
@@ -88,6 +121,9 @@ button {
 
 
 }
+
+/**options of the main box with nav y content title**/
+
 
 .hero {
     position: relative;
@@ -100,6 +136,9 @@ button {
 
 
 }
+
+/**options of the main button box**/
+
 
 .hero-button {
     background-color: #418209;
@@ -115,10 +154,16 @@ button {
 
 }
 
+/**options of the main botton when hover**/
+
+
 .hero-button:hover {
     background-color: #cb376a;
     border: 1px solid #db7598;
 }
+
+/**options of the main nav**/
+
 
 .hero-nav {
 
@@ -132,13 +177,7 @@ button {
 
 }
 
-.hero-content {
-    position: relative;
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
+
 
 div.hero-nav>img {
     width: 80px;
@@ -185,4 +224,10 @@ ul li {
     justify-content: space-between;
     margin-right: 350px;
     margin-left: 350px;
+}
+
+ul {
+    display: flex;
+    gap: 50px;
+    color: #fd7e14;
 }
